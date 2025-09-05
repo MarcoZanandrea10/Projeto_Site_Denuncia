@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Policia Civil</title>
+    <link rel="icon" href="imagens/favicon.png" type="image/png">
+    <title>Polícia Civil</title>
 </head>
 <body>
     <header>
-        <h1>Policia Civil</h1>
+        <div id="logo_titulo">
+            <img src="imagens/logo policia.png" alt="Logo da Polícia Civil" id="logo">
+            <h1>Polícia Civil</h1>
+        </div>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="contato.html">Contato</a></li>
@@ -19,12 +23,22 @@
     </header>  
 
     <main>
-        <img src="imagens/policia capa.png" alt="Imagem de capa da Policia Civil">
-        <h2></h2>
+        <video id="video_capa" class="video_capa" src="videos/video_capa.mp4" autoplay loop muted playsinline>
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+       
+        <h2 class="denuncia" id="roubo">Furto e Roubo</h2>
+        <h2 class="denuncia" id="violencia">Violência Doméstica</h2>
+        <h2 class="denuncia" id="acidente">Acidente de Trânsito</h2>
+        <h2 class="denuncia" id="outras">Outras Ocorrências</h2>
     </main>
 
     <footer>
-
+        <p>Polícia Civil</p>
+        <p>Delegacia de Polícia Virtual de Santa Catarina</p>
+        <p>Todos os direitos reservados © 2025</p>
+        <P>📞 DENUNCIE</P>
+        <P>197 - Polícia Civil      181 - Disque Denúncia</P>
     </footer>
 </body>
 </html>
