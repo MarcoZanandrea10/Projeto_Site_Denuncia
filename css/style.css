@@ -2,6 +2,7 @@
 
 body {
     font-family: "Bebas Neue", sans-serif;
+    background-color: rgb(233, 233, 233);
 }
 
 header {
@@ -128,8 +129,7 @@ header {
 .form_denuncia textarea {
     border: 1px solid #ccd2e0;
     font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    max-width: 100%;
+    width: 98%;
     padding: 10px 12px;
     border-radius: 8px;
 }

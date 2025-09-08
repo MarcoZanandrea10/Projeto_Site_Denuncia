@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="imagens/favicon.png" type="image/png">
     <title>Polícia Civil</title>
 </head>
@@ -25,6 +25,8 @@
     <hr class="linha">
 
     <main>
+        <script src="script.js"></script>
+
         <video id="video_capa" class="video_capa" src="videos/video_capa.mp4" autoplay loop muted playsinline></video>   
         <div>
         <section class="box_denuncias">
@@ -43,11 +45,9 @@
                 <input type="text" id="objetos_roubo" required> <br><br>
                 <label> Descrição do ocorrido: </label> <br>
                 <textarea id="descricao_roubo" rows="4" cols="50" required></textarea> <br><br>
-                <input type="submit" value="Enviar" class="botao_enviar">
-
+                <input type="button" value="Enviar" class="botao_enviar" onclick="salvarRoubo(); window.open('resumo.html', '_blank');">
             </form>
         </section>
-
 
         <section class="box_denuncias">
             <details class="abrir_denuncia" id="violencia">
@@ -67,11 +67,9 @@
                 <input type="text" id="objetos_violencia" required> <br><br>
                 <label> Descrição do ocorrido: </label> <br>
                 <textarea id="descricao_violencia" rows="4" cols="50" required></textarea> <br><br>
-                <input type="submit" value="Enviar" class="botao_enviar">
-
+                <input type="button" value="Enviar" class="botao_enviar" onclick="salvarViolencia(); window.open('resumo.html', '_blank');">
             </form>
         </section>
-
 
         <section class="box_denuncias">
             <details class="abrir_denuncia" id="acidente">
@@ -91,11 +89,9 @@
                 <input type="text" id="veiculos_acidente" required> <br><br>
                 <label> Descrição do ocorrido: </label> <br>
                 <textarea id="descricao_acidente" rows="4" cols="50" required></textarea> <br><br>
-                <input type="submit" value="Enviar" class="botao_enviar">
-
+                <input type="button" value="Enviar" class="botao_enviar" onclick="salvarAcidente(); window.open('resumo.html', '_blank');">
             </form>
         </section>
-
 
         <section class="box_denuncias">
             <details class="abrir_denuncia" id="calunia">
@@ -111,8 +107,7 @@
                 <input type="text" id="envolvidos_calunia" required> <br><br>
                 <label> Descrição do ocorrido: </label> <br>
                 <textarea id="descricao_calunia" rows="4" cols="50" required></textarea> <br><br>
-                <input type="submit" value="Enviar" class="botao_enviar">
-
+                <input type="button" value="Enviar" class="botao_enviar" onclick="salvarCalunia(); window.open('resumo.html', '_blank');">        
             </form>
         </section>
         

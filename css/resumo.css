@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Funnel+Display:wght@500..800&display=swap');
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    background-color: rgb(216, 216, 216);
+    margin: 30px;
+    color: rgb(54, 68, 100);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.respostas {
+    color: black;
+}
+
+footer {
+    background: linear-gradient(180deg, rgb(38, 47, 71) 70%, rgb(54, 68, 100) 100%);
+    box-shadow: 0 -2px 16px rgba(0,0,0,0.12);
+    color: #fff;
+    width: 100vw;
+    margin-top: 20vw;
+    min-height: 120px;
+    padding: 40px 0 20px 0;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+#policia_dourado {
+    height: 170px;
+    width: 150px;
+    margin-left: 200px;
+}
+
+#brasil {
+    height: 130px;
+    width: 200px;
+    margin-right: 200px;
+}
